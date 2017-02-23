@@ -1,0 +1,94 @@
+* {
+    	  -webkit-box-sizing: border-box;
+    	  -moz-box-sizing: border-box;
+    	  box-sizing: border-box;
+    	}
+
+
+
+.main {
+	
+    padding: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+	border: 1px solid #666;
+	backgound: white;
+	margin-left: 120px;
+	margin-top: 100px;
+	box-shadow: 0 0 55px silver;
+	width: 1000px;
+	margin-bottom: 50px;
+}
+
+ 
+ .main-text{
+ 	
+   
+   padding: 2px;
+   margin: 10px auto;
+   font-family: 'Lato', serif;
+   
+   
+
+ }
+
+
+p {
+	
+	font-family: 'Lato', serif;
+}
+
+
+p::first-letter{ 
+ 
+   font-size: 50px;
+
+
+}
+
+h4{
+	
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
+q{
+	
+	font-size: 25px;
+}
+
+
+.blockquote{
+	
+	
+    border-left: 1px solid #bbb;
+    font-style: italic;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+.blockquote:before {
+    color: #bbb;
+    content: "\201C"; /* Непечатаемый символ слева */
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.2em;
+    vertical-align: -.4em;
+}
+
+.button {
+	
+	width: 20px;
+	height: 20px;
+}
+
+button {
+	
+	width: 150px;
+	height: 30px;
+	background: white;
+	font-family: 'lato', bold;
+	letter-spacing: 1px;
+	border: 1px solid #eaa258;
+	cursor: pointer;
+}
